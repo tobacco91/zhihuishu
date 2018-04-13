@@ -7,9 +7,9 @@ arr.forEach((element,i) => {
     setTimeout(() => {
         arr[i].click();
         //1.5倍加速
-        document.querySelector('.speedTab15').click();
+        //document.querySelector('.speedTab15').click();
         //静音
-        document.querySelector('.volumeIcon').click();
+        //document.querySelector('.volumeIcon').click();
     }, count);
     count += time;
 });
