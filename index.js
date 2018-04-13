@@ -6,6 +6,8 @@ arr.forEach((element,i) => {
     let time = parseInt(timeArr.pop()) * 1000 + parseInt(timeArr.pop())*60*1000 + 3000;
     setTimeout(() => {
         arr[i].click();
+        //1.5倍加速
+        document.querySelector('.speedTab15').click();
     }, count);
     count += time;
 });
